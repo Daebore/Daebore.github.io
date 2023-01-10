@@ -1,0 +1,260 @@
+
+@font-face{
+	font-family:letra1;
+	src:url("../FONT/letra1.ttf");
+}
+
+body{
+	background-color:rgb(211, 222, 231);
+	font-family: Arial;
+	font-size:17px;
+}
+
+p{
+	text-align: left;
+	margin-left: 10px;
+	margin-right:10%;
+
+}
+
+h1, h2, h3{
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	text-align: left;
+}
+
+header {
+	background:url("../IMG/header.jpg") no-repeat;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 25%;
+	width:99.50%;
+	border:5px black groove;
+	border-radius:15px;
+	text-align:center;
+	text-color:white;
+}	
+
+footer {
+	height:18%;
+	width:99.50%;
+	border:5px black groove;
+	border-radius:15px;
+	background:url("../IMG/marshall.jpg") no-repeat;
+	background-size:cover;
+	margin-top:0px;
+	bottom: 0;
+	position: static;
+	
+}
+
+.main {
+	float: left;
+  	width: 60%;
+}
+
+ul {
+	padding-left: 8px;
+	list-style-type: none;
+  }
+  
+  ul li {
+	padding-left: 40px;
+	background-image: url("../IMG/guitarrita.png");
+	background-position: 0 0;
+	background-size:30px;
+	background-repeat: no-repeat;
+  }
+
+#letras {
+	font-family:letra1;
+	color:white;
+	font-align:center;
+	font-size:65px;
+	font-weight:bold;
+}
+
+#center {
+	width:81%;
+	height:200;
+	float:right;
+	color:black;
+}
+
+#left {
+	width:18%;
+	height:96%;
+	float:left;
+	border-style: ridge;
+	border-color:rgba(8, 70, 99, 0.945);
+	border-radius:15px;
+	background:url("../IMG/folio.jpg") no-repeat;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial black;
+	text-align: left;
+	color:black;
+	line-height:50px;
+}
+
+.mini{
+	font-size: 15px;
+	font-family: Arial black;
+	line-height:20px;
+
+}
+
+.dudas{
+	border-style: ridge;
+	border-color:rgba(23, 19, 46, 0.945);
+	border-radius:15px;
+	background-color: rgb(231, 222, 135);
+	position:relative;
+	border-radius:10px;
+	position:static;
+	width: 300px;
+	bottom:0;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.stop{
+	clear:both;
+}
+
+#tienda1 {
+	max-width: 120%; 
+	height: 120%;
+	margin: 10px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+}
+
+#tienda2 {
+	width: 25%; 
+	height: 120%;
+	margin: 10px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+}
+
+#fotoindex {
+	max-width: 100%; 
+	height: 100%;
+	margin: 3px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+}
+
+#fotoindex2 {
+	width: 18%; 
+	height: 100%;
+	margin: 3px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+}
+
+#paguitarra { 
+	width: 300px; 
+	height: 250px;
+	margin: 5px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+}
+
+#foto {
+	width: 60%; 
+	height: 125%;
+	margin: 5px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+	overflow-y: auto;
+}
+
+#foto2 {
+	width: 60%; 
+	height: 100%;
+	margin: 5px;
+	display: inline-block;
+	border-style: ridge;
+	border-radius:10px;
+	border-color: black;
+	overflow-y: auto;
+}
+
+
+.profe {
+	border-style: ridge;
+	border-color:rgba(8, 70, 99, 0.945);
+	border-radius:15px;
+	background-color: rgb(198, 208, 209);
+	position:relative;
+	border-radius:10px;
+	position:static;
+	width: 300px;
+	bottom:0;
+	padding: 5px;
+	font-size: 16px;
+}
+
+video {
+	max-width:38%;
+	height: 115%;
+}
+
+#redes {
+	float:right;
+	border-style: ridge;
+	border-radius:10px;
+	text-align: center;
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+	display:inline-block;
+	vertical-align:center;
+	max-width: 100%;
+	height: 97%;
+}	
+
+#garantia {
+	float:left;
+	display:inline-block;
+	vertical-align:center;
+	width: 16%;
+	height: 96%;
+}	
+
+#maps {
+		margin-right: 5%;
+		margin-top: 1%;
+		display:inline-block;
+		float:inline-end;
+		border-style: ridge;
+		border-radius:8px;
+		border-color: black;
+}	
+
+iframe{
+	margin-right: 5%;
+	margin-top: 1%;
+	display:inline-block;
+	float:inline-end;
+	border-style: ridge;
+	border-radius:8px;
+	border-color: black;
+	width: 100%;
+	height: 125%;
+}
